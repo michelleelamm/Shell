@@ -5,8 +5,9 @@
 #include <sys/wait.h>
 
 // To-do
-// Optimize for error detections 
-// Piping? 
+// Create makefile
+// Create log file of tests we can run and find cases where our shell fails
+// Create a instructions.txt
 
 void printDir() 
 { 
@@ -21,7 +22,6 @@ void printIntro(){
     printf("\n-----------------------------------------------------------------------\n");
 
 }
-#define LSH_TOK_BUFSIZE 64
 int main(){
 
     printIntro();
