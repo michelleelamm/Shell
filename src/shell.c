@@ -8,6 +8,8 @@
 // Create makefile
 // Create log file of tests we can run and find cases where our shell fails
 // Create a instructions.txt
+// Create better printIntro() func
+
 
 void printDir() 
 { 
