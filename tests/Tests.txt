@@ -1,0 +1,11 @@
+mkdir fake 				// Make the fake directory 
+cd fake 				// Change directory to fake
+pwd 					// Check to see present working directory
+touch file1.txt 		// Make a text file and change the contents
+touch file2.txt 		// Make a text file
+cp file1.txt file2.txt  // Copy the contents from file1.txt to file2.txt
+ls 						// List contents of pwd
+rmdir fake				// Remove the fake directory
+						// If the directory is not empty you can't remove it 
+						   rmdir: failed to remove 'fake': Directory not empty 
+exit					// Exit the shell
